@@ -4,15 +4,15 @@ Smooth ProgressBar Colored to C++Builder
 Usage :
 This is an extension of <a href='https://github.com/RRUZ/vcl-styles-utils'>vcl-styles-utils</a>
 
-C++Builder :
-<ul>
-  <li>Add to file from C++Builder and common file in folder in path used in C++Builder</li>
-
-  <li>Add include in .h</li>
+1) Add file in folder in path used by C++Builder
+2) Add include in .h
+```sh
 #include <ColorProgressBarStyleHook.h>
 #include "ColorProgressBar.h"
+```
 
-  <li>Add in .cpp</li>
+3) Add in .cpp
+```sh
 TColorProgressBarStyleHook::RegisterStyleHook();
 TColorProgressBarStyleHook::UnRegisterStyleHook();
-</ul>
+```

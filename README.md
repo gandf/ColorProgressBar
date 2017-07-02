@@ -16,3 +16,17 @@ This is an extension of <a href='https://github.com/RRUZ/vcl-styles-utils'>vcl-s
 TColorProgressBarStyleHook::RegisterStyleHook();
 TColorProgressBarStyleHook::UnRegisterStyleHook();
 ```
+
+Color work only when style are running.
+
+With TProgressBar :
+if BarColor is clDefault, then theme color are used.
+if not, this is color used to draw bar.
+
+With TColorProgressBar :
+BarColor work like to TProgressBar.
+BarGray enable to show disable bar.
+
+Lot of parameters are present to personalize car color like gradient.
+
+[![Watch the video](http://www.flyonsoft.com/ColorProgressBar.gif)](https://youtu.be/Rm4DQo_ahPw)

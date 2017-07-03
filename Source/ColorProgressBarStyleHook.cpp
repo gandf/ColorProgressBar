@@ -19,7 +19,7 @@ __fastcall TColorProgressBarStyleHook::TColorProgressBarStyleHook(Vcl::Controls:
 if (!AControl->ClassNameIs(TColorProgressBar::ClassName()) && !AControl->ClassNameIs(TProgressBar::ClassName()))
    {
    //this style work only for TColorProgressBar and TProgress
-   throw Exception("TColorProgressBarStyleHook ne s'applique qu'aux TProgressBar et TColorProgressBar");
+   throw Exception("TColorProgressBarStyleHook applies only to TProgressBar and TColorProgressBar");
    }
 }
 //---------------------------------------------------------------------------
